@@ -1,0 +1,288 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* ----Css for Home Page---- */
+
+body
+{
+    background-color: #3D087B;
+}
+
+.container  
+{
+    display: flex;
+}
+
+.clock-logo
+{
+    margin-top: 34px;
+    margin-left: 124px;
+}
+
+.set-time-box
+{
+    width: 566px;
+    height: 363px;
+    margin-top: 30px;
+    margin-left: 124px;
+    padding: 15px;
+    background-color: #ffffff;
+    border: 1px solid #EDEDED;
+    border-radius: 10px;
+    opacity:1;
+    
+}
+
+.set-up
+{
+    display: flex;
+    align-items: center;
+    font-size: 23px;
+    /* gap: 20px; */
+    justify-content: space-between;
+    color: #3D087BDE;
+}
+
+.set
+{
+    width: 280px;
+    height: 50px;
+    font-size: 14px;
+    color: #3D087BDE;
+    padding: 5px;
+    border: 1px solid #EDEDED;
+    border-radius: 4px;
+}
+
+.line
+{
+    border-left: 3px solid #EDEDED;
+    height: 40px;
+    margin-left: 15px;
+}
+
+.time-box 
+{
+    width: 550px;
+    height: 130px;
+    background-color: #ffffff;
+    border: 1px solid #EDEDED;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-left: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.time 
+{
+    font-size: 26px;
+    color: #3D087B;
+    text-transform: uppercase;
+    margin-right: 20px;
+}
+
+.time-container 
+{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+.timeline   
+{
+    width: 80px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.time-bg
+{
+    background-image: url(./timeline.png);
+}
+
+.hour 
+{
+    color: #8A11BF; 
+}
+
+.minute 
+{
+    color: #8A11BF; 
+}
+
+.second 
+{
+    color: #8A11BF; 
+}
+
+.am
+{
+    color: #ffffff;
+}
+
+.am-bg
+{
+    background-image: url(./AM.png);
+}
+
+.colon 
+{
+    font-size: 40px;
+    color: #8A11BF;
+}
+
+.box-border 
+{
+    width: 425px;
+    height: 15px;
+    background-color: #ffffff;
+    border: 1px solid transparent;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    margin-left: 90px;
+    opacity: 0.70;
+}
+
+.box-border1 
+{
+    width: 355px;
+    height: 30px;
+    background-color: #ffffff;
+    border: 1px solid transparent;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-left: 125px;
+    margin-top: -15px;
+    opacity: 0.22;
+}
+
+.breakfast
+{
+    width: 536px;
+    height: 118px;
+    background-color: #ffffff;
+    color: #8E53F0;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 26px;
+    font-weight: bold;
+    font-family: cursive;
+    padding: 20px;
+}
+
+.morning-img 
+{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.good-morning-box 
+{
+    width: 566px;
+    height: 77px;
+    background-color: #8A11BF;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    opacity: 0.73;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 124px;
+    margin-top: 30px;
+}
+
+.morning-text
+{
+    color: #ffffff;
+    opacity: 1;
+    font-size: 25px;
+}
+
+.cont
+{
+    display: flex;
+    margin-left: 124px;
+    margin-top: 30px;
+   gap: 20px;
+}
+
+.button
+{
+    height: 50px;
+    width: 270px;
+    background-image :linear-gradient(to right,#6a06dc, #d77aff);
+    border-radius: 7px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+
+.button:hover
+{
+    cursor: pointer;
+}
+/* 
+.button:hover:before
+{
+    content: "party";
+} */
+.timingbox
+{
+    height: 85px;
+    width: 270px;
+    background-color: #8A11BF;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    opacity: 0.40;
+    color: #3D087B;
+    position: relative;
+}
+
+.timingboxcontent
+{
+    position: absolute;
+    left: 450px;
+    margin: 5px;
+}
+
+.timingboxcontent ul 
+{
+    list-style-type: none;
+    color:#cf5eff;
+}
+
+
+
+@media screen and (max-width: 900px)
+{
+    .container
+    {
+        flex-direction: column;
+    }
+
+    .right-part
+    {
+        margin-left: 10%;
+    }
+}
