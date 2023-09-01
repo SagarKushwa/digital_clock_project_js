@@ -291,16 +291,33 @@ body
         flex-direction: column;
     }
 
+    .good-morning-box, .set-time-box
+    {
+        width: 550px;
+    }
+
+    .button
+    {
+        width: 550px;
+        margin-left: -1%;
+    }
+
+    .timingbox
+    {
+        width: 550px;
+        margin-left: -1%;
+    }
+
     .timingboxcontent
     {
         position: absolute;
-        left: 130px;
+        left: 300px;
         top: 715px;
         margin: 5px;
     }
 
     .clock-logo, .set-time-box, .good-morning-box
     {
-        margin-left: 10%;
+        margin-left: 14%;
     }
 }
