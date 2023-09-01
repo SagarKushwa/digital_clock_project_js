@@ -285,4 +285,22 @@ body
     {
         margin-left: 10%;
     }
+
+    .cont
+    {
+        flex-direction: column;
+    }
+
+    .timingboxcontent
+    {
+        position: absolute;
+        left: 130px;
+        top: 715px;
+        margin: 5px;
+    }
+
+    .clock-logo, .set-time-box, .good-morning-box
+    {
+        margin-left: 10%;
+    }
 }
